@@ -6,7 +6,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(suma(2,4), 6)
         
     def test_resta(self):
-        self.assertEqual(resta(6,4), 2)
+        self.assertEqual(resta(6,4), 12)
         
 if __name__ == '__main__':
     unittest.main()
